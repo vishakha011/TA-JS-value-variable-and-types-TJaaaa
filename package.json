@@ -1,0 +1,23 @@
+{
+  "name": "TA-JS-value-variable-and-types-TJaaaa",
+  "version": "1.0.0",
+  "description": "TA-JS-value-variable-and-types-TJaaaa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishakha011/TA-JS-value-variable-and-types-TJaaaa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+"dependencies": {
+    "jest": "^26.0.1"
+  }
+  "bugs": {
+    "url": "https://github.com/vishakha011/TA-JS-value-variable-and-types-TJaaaa/issues"
+  },
+  "homepage": "https://github.com/vishakha011/TA-JS-value-variable-and-types-TJaaaa#readme"
+}
