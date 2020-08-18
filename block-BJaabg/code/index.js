@@ -14,7 +14,7 @@ const ACCESSORY_PRICE = 9.99;
 var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
-while(bank_balance > amount){
+while(bank_balance >= amount){
     amount += PHONE_PRICE;
     if(SPENDING_THRESHOLD > amount){
         amount += ACCESSORY_PRICE;
@@ -23,9 +23,9 @@ while(bank_balance > amount){
 amount = amount + (amount * TAX_RATE);
 console.log(`$${amount.toFixed(2)}`);
 if(bank_balance > amount){
-    alert("I can afford");
+    console.log("I can afford");
 }else{
-    alert("I cannot afford");
+    console.log("I cannot afford");
 }
 
 // ⛑ Answer of the above will `$334.76`.
