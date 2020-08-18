@@ -23,9 +23,9 @@ while(bank_balance >= amount){
 amount = amount + (amount * TAX_RATE);
 console.log(`$${amount.toFixed(2)}`);
 if(bank_balance > amount){
-    console.log("I can afford");
+    console.log("You can afford");
 }else{
-    console.log("I cannot afford");
+    console.log("You cannot afford");
 }
 
 // ⛑ Answer of the above will `$334.76`.
