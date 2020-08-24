@@ -38,10 +38,17 @@ alert(`The sum of ${num1} and ${num2} is ${num1 + num2}`);
 let userName = prompt("Enter your Name");
 let userProfession = prompt("Enter your Profession");
 let isAdult = confirm("Are you an adult?");
+
 alert(`I am ${userName} a ${userProfession}`);
 console.log(`I am ${userName} a ${userProfession}`);
-alert(`Username: ${userName} \n Adult: ${isAdult} \n Profession: ${userProfession}`);
-console.log(`Username: ${userName} \n Adult: ${isAdult} \n Profession: ${userProfession}`);
+
+alert(`Username: ${userName} 
+ Adult: ${isAdult}
+   Profession: ${userProfession}`);
+
+console.log(`Username: ${userName} 
+ Adult: ${isAdult} 
+  Profession: ${userProfession}`);
 
 /*
 . Addition using prompt
@@ -53,10 +60,10 @@ console.log(`Username: ${userName} \n Adult: ${isAdult} \n Profession: ${userPro
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
-let numA = prompt("Enter number1");
-let numB = prompt("Enter number2");
-alert(`The sum of ${numA} and ${numB} is ${Number(numA) + Number(numB)}`);
-alert(`The difference of ${numA} and ${numB} is ${Number(numA) - Number(numB)}`);
-alert(`The multiplication of ${numA} and ${numB} is ${Number(numA) * Number(numB)}`);
-console.log(`Sum: ${Number(numA) + Number(numB)}`);
-console.log(`Multiplication: ${Number(numA) * Number(numB)}`);
+let numA = +prompt("Enter number1");
+let numB = +prompt("Enter number2");
+alert(`The sum of ${numA} and ${numB} is ${(numA) + (numB)}`);
+alert(`The difference of ${numA} and ${numB} is ${(numA) - (numB)}`);
+alert(`The multiplication of ${numA} and ${numB} is ${(numA) * (numB)}`);
+console.log(`Sum: ${(numA) + (numB)}`);
+console.log(`Multiplication: ${(numA) * (numB)}`);
