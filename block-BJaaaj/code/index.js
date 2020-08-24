@@ -14,15 +14,16 @@ firstName = "John";
 // Assign a new value of `"Snow"` to lastName.
 lastName = "Snow";
 // Alert the new value of `firstName` and `lastName` by concatenating them
-alert(firstName + " " + lastName);
+alert(firstName + lastName);
 // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
-const fullName = firstName + " " + lastName; 
+// const fullName = firstName + " " + lastName; 
+const fullName = `${firstName} ${lastName}`;
 // Declare three variables `name,` `newUser` and `isAdmin`.
-let name;
-let userName;
-let isAdmin;
+let name,
+userName,
+isAdmin;
 // Assign your name as the value of `name`.
-name = "Vishakha"
+name = "Vishakha";
 // Assign the value of `name` to `newUser`.
 let newUser = name;
 // Set the value of `isAdmin` to `true`.
@@ -38,7 +39,7 @@ var wiseMan = "Tyrion Lannister";
 // Follow instructions and do the following. In case of an error write the error in comment
 
 // Reassign the value of `wiseMan` to "Samwell Tarly"
-wiseMan = "SAmwell Tarly";
+wiseMan = "Samwell Tarly";
 // Declare a variable `userName` with value "Lysa Arryn"
 let userName = "Lysa Arryn";
 // Declare a variable named `oddNumber` and assign a value `57`.
